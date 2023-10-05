@@ -166,7 +166,7 @@
 }
 .galerias .galeria1,.galeria2 {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   place-content: center;
   max-width: 100%;
 
@@ -191,9 +191,11 @@
 .banner{
   display: grid;
   grid-template-columns: 1fr 4fr;
-  margin: 0 auto;
+  margin: 0px 0px 0px 5%;
   max-width: 1594px;
   border: 1px solid red;
+  place-items: left
+  ;
 }
 
 .banner img{
