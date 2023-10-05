@@ -156,6 +156,9 @@
 section.galerias{
   border: 1px solid red;
 
-  
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  place-content: center;
+  gap: 1em;
 
 }
