@@ -168,6 +168,7 @@
   display: flex;
   flex-wrap: wrap;
   place-content: center;
+  max-width: 100%;
 
 
 }
@@ -175,7 +176,8 @@
 .galerias  img{
   max-width: 23%;
   margin: 10px;
-  border: 1px solid white ;
+  border: 1.5px solid white;
+
   
 }
 
@@ -189,12 +191,9 @@
 .banner{
   display: grid;
   grid-template-columns: 1fr 4fr;
-
   margin: 0 auto;
   max-width: 1594px;
-
-  border: 1px solid red ;
-
+  border: 1px solid red;
 }
 
 .banner img{
