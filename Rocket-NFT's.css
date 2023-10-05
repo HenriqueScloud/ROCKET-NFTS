@@ -153,12 +153,28 @@
 
 /* CONTINUAÇÃO DA GALERIA DE FOTOS  */
 
-section.galerias{
-  border: 1px solid red;
+.galerias{
 
   display: grid;
   grid-template-rows: 1fr 1fr;
   place-content: center;
-  gap: 1em;
+  gap: 2em;
+  margin: 0 auto;
+  padding: 5px;
+  width: 80%;
 
+}
+.galerias .galeria1,.galeria2 {
+  display: flex;
+  flex-wrap: wrap;
+  place-content: center;
+  max-width: 100%;
+
+
+}
+
+.galerias  img{
+  max-width: 20%;
+  margin: 5px;
+  
 }
