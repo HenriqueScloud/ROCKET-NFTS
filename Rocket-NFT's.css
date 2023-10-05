@@ -161,20 +161,42 @@
   gap: 2em;
   margin: 0 auto;
   padding: 5px;
-  width: 80%;
+  width: 90%;
 
 }
 .galerias .galeria1,.galeria2 {
   display: flex;
   flex-wrap: wrap;
   place-content: center;
-  max-width: 100%;
 
 
 }
 
 .galerias  img{
-  max-width: 20%;
-  margin: 5px;
+  max-width: 23%;
+  margin: 10px;
+  border: 1px solid white ;
   
+}
+
+
+
+
+
+/* SECTION DOS BANNERES DE INFORMAÇÕES  */
+
+
+.banner{
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+
+  margin: 0 auto;
+  max-width: 1594px;
+
+  border: 1px solid red ;
+
+}
+
+.banner img{
+  max-width: 60vw;
 }
