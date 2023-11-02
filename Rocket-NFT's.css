@@ -42,6 +42,8 @@
     display: flex;
     justify-content: space-around;
     padding: 50px 20px;
+    place-content: center;
+    align-items: center;
 
   }
 
@@ -70,26 +72,33 @@
   .menu-header .header-btn{ /*botão de conectar a carteira */
 
     display: grid;
-    grid-template-columns: 1fr 3fr;
+    grid-template-columns: .5fr 3fr;
     place-content: center;
 
+
     min-width: 250px;
-    padding: 2px;
+    max-height: 50px;
+    padding: 5px;
 
     background:var(--text-color) ;
     color: #000;
     border-radius: 5px;
+    max-height:50px;
 
 
   }
   .menu-header .header-btn img{
     width: 90%;
     align-self: center;
+    margin-left:15px
   }
   .menu-header .header-btn p{
+    display: flex;
     font-size: 1.125em;
     font-weight: 700;
     text-align: center;
+    align-items: center;
+    margin: 0px auto;
   }
 
 
